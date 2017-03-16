@@ -5,5 +5,6 @@ alert(1234);
 
 function test02(){
 
-  
+
+function test01(){
 }
