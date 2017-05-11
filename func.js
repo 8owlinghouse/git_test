@@ -13,3 +13,17 @@ updateStyle(docked, width, height) {
         styles.divList = { ...styles.divList, width: '100%' };
     }
 }
+
+
+componentWillMount() {
+    this.props.setRole('SHOP');
+    this.updateStyle(this.props.docked, this.props.width, this.props.height);
+
+
+    this.setState({
+        showTileData: this.props.tilesData,
+        id: this.props.routeParams.id
+    });
+
+
+}
