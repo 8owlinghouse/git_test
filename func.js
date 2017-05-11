@@ -8,8 +8,16 @@ updateStyle(docked, width, height) {
 
     } else {
         styles.container = { ...styles.container, top: '56px' };
-        styles.tabs = { ...styles.tabs, 'paddingLeft': 0, width: '100%' };
+        //styles.tabs = { ...styles.tabs, 'paddingLeft': 0, width: '100%' };
         styles.Scrollbars = { ...styles.Scrollbars, height: height - 160 };
         styles.divList = { ...styles.divList, width: '100%' };
+        uhoiughoiughu;
     }
+}
+
+
+
+dddd(){
+
+    oijopi
 }
