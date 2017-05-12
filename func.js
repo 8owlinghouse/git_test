@@ -8,8 +8,8 @@ updateStyle(docked, width, height) {
 
     } else {
         styles.container = { ...styles.container, top: '56px' };
-        //styles.tabs = { ...styles.tabs, 'paddingLeft': 0, width: '100%' };
-        styles.Scrollbars = { ...styles.Scrollbars, height: height - 160 };
+        xxxxxxxxxxxxxxx
+        styles.Scrollbars = { ...styles.Scrollbars, height: height - 160, width: '100%' };
         styles.divList = { ...styles.divList, width: '100%' };
         uhoiughoiughu;
     }
@@ -20,4 +20,17 @@ updateStyle(docked, width, height) {
 dddd(){
 
     oijopi
+}
+
+componentWillMount() {
+    this.props.setRole('SHOP');
+    this.updateStyle(this.props.docked, this.props.width, this.props.height);
+
+
+    this.setState({
+        showTileData: this.props.tilesData,
+        id: this.props.routeParams.id
+    });
+
+
 }
