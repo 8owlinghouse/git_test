@@ -8,9 +8,18 @@ updateStyle(docked, width, height) {
 
     } else {
         styles.container = { ...styles.container, top: '56px' };
+
+        Test xxxxxxxxxxxxxxxxxxxxx
+        
+        Test xxxxxxxxxxxxxxxxxxxxx
+        
         styles.tabs = { ...styles.tabs, 'paddingLeft': 0, width: '100%' };
         styles.Scrollbars = { ...styles.Scrollbars, height: height - 160 };
         styles.divList = { ...styles.divList, width: '100%' };
+
+        xxxxxxxxxxxxxxxxxxxxx
+
+        Test xxxxxxxxxxxxxxxxxxxxx
     }
 }
 
@@ -18,6 +27,9 @@ updateStyle(docked, width, height) {
 NewFunc(){
 
     ccccc
+    console.log("Test");
+    console.log("Test");
+    console.log("Test");
 },
 componentWillMount() {
     this.props.setRole('SHOP');
