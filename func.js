@@ -15,6 +15,10 @@ updateStyle(docked, width, height) {
 }
 
 
+NewFunc(){
+
+    ccccc
+},
 componentWillMount() {
     this.props.setRole('SHOP');
     this.updateStyle(this.props.docked, this.props.width, this.props.height);
